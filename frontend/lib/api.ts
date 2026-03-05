@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:3001",
+  baseURL: "https://restaurant-platform-jc7b.onrender.com",
 });
 
 export default api;
