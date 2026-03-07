@@ -5,7 +5,7 @@ export default function WorkWithUsPage() {
   return (
     <>
       <div className="min-h-screen bg-white flex text-black">
-        <div className="w-1/2 flex flex-col  items-center justify-center text-left p-10">
+        <div className="w-1/2 flex flex-col  items-center justify-center text-center p-10">
           <h1 className="text-4xl font-bold text-center mt-10 text-accent">
             Join Our Team at Graze & Grain!
           </h1>
