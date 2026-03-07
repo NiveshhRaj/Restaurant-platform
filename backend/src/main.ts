@@ -7,6 +7,7 @@ import * as express from 'express';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   app.enableCors({
+<<<<<<< HEAD
   origin: [
     "https://restaurant-platform-ruddy.vercel.app",
     "http://localhost:3000"
@@ -14,6 +15,10 @@ async function bootstrap() {
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
 });
+=======
+    origin: 'https://restaurant-platform-jc7b.onrender.com',
+  });
+>>>>>>> 68ca9ef (fix: resolved CORS issue, added menu items and deployment fixes)
   app.useGlobalPipes(new ValidationPipe());
 
   app.use('/uploads', express.static(join(process.cwd(), 'uploads')));

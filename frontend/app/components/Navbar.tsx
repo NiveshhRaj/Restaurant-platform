@@ -15,6 +15,7 @@ export default function Navbar() {
           <Link href="/menu">Menu</Link>
           <Link href="/about">About Us</Link>
           <Link href="/reservation">Reservation</Link>
+          <Link href="/work_with_us">Work With Us</Link>
           <Link href="/admin/login">Admin</Link>
         </div>
       </div>
